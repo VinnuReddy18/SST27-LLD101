@@ -1,7 +1,11 @@
 public class Demo07 {
     public static void main(String[] args) {
-        Machine m = new BasicPrinter();
-        m.print("Hello");
-        m.scan("/tmp/out"); // blows up
+        Printer printer = new BasicPrinter();
+        printer.print("Hello");
+
+        MultiFunctionMachine mfm = new MultiFunctionMachine();
+        mfm.print("Document");
+        mfm.scan("/tmp/out");
+        mfm.fax("555-1234");
     }
 }
