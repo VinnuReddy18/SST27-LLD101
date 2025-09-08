@@ -1,0 +1,5 @@
+id,email,name
+101,admin@company.com,System Admin
+102,test@test.com,Test User
+103,bad-email-format,Bad User
+104,,Empty Email User
